@@ -14,6 +14,7 @@
   load_template(get_template_directory() . '/templates/product.php', false);
   load_template(get_template_directory() . '/templates/product.php', false);
   load_template(get_template_directory() . '/templates/product.php', false);
+  load_template(get_template_directory() . '/templates/product.php', false);
   ?>
 
   <?php get_footer(); ?>

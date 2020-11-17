@@ -3,7 +3,7 @@
 
   cursor: pointer;
   display: inline-block;
-  width: 432px;
+  width: calc(100% / 5);
 
   &__preview-wrapper {
     overflow: hidden;
@@ -17,7 +17,7 @@
   }
 
   &__preview {
-    transition: opacity ease-out .25s;
+    transition: opacity ease-out 0.25s;
     position: absolute;
     opacity: 0.9;
     top: 0;
@@ -27,15 +27,25 @@
 
   &__informations-wrapper {
     text-align: center;
+  }
 
-    &__availability {
-    }
+  &__availability {
+    font-weight: 300;
+    opacity: 0.8;
+    font-size: 1rem;
+  }
 
-    &__title {
-    }
+  &__title {
+    color: #cb997e;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: .25rem 0;
+  }
 
-    &__price {
-    }
+  &__price {
+    font-weight: 600;
+    font-size: 1.25rem;
+    opacity: 0.8;
   }
 
   &:hover {
