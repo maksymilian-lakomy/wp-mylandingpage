@@ -1,7 +1,7 @@
 /*
 Theme Name: My Landing Page
 Theme URI: # 
-Author: Michał Starski 
+Author: Michał Starski | Maksymilian Łakomy
 Author URI: https://github.com/michalStarski 
 Description: Simple landing page theme for wordpress
 Version: 1.0
@@ -9,66 +9,6 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: page
 Text Domain: mylandingpage
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
 */
 
 @import "./variables";
-@import "./triangles";
-
-@import "./header";
-@import "./section1";
-@import "./section2";
-@import "./section3";
-@import "./section4";
-@import "./section5";
-@import "./section6";
-@import "./footer";
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family: "Lato", sans-serif;
-}
-
-body {
-	position: relative;
-	overflow-x: hidden;
-}
-
-.body-lock {
-	overflow: hidden;
-}
-
-.btn {
-	width: 170px;
-	height: 50px;
-	border-radius: 30px;
-	font-weight: bold;
-	text-transform: uppercase;
-	border: none;
-	cursor: pointer;
-	transition: all 0.3;
-	hyphens: auto;
-
-	&--primary {
-		background: #fff;
-
-		&:hover {
-			background: $red;
-			filter: brightness(1.5);
-			color: #fff;
-		}
-	}
-
-	&--secondary {
-		background: $red;
-		color: #fff;
-
-		&:hover {
-			filter: brightness(1.5);
-		}
-	}
-}
