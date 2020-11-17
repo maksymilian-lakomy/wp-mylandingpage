@@ -6,4 +6,9 @@ function add_external_files()
 	wp_enqueue_script('main', get_template_directory_uri() . '/js/main.js', array('jquery'), false, true);
 }
 
+function mytheme_add_woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
+
 add_action('wp_enqueue_scripts', 'add_external_files');
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );
