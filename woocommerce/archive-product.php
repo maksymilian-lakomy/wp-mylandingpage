@@ -6,11 +6,17 @@
 <body>
 
   <?php
-    load_template(get_template_directory() . '/templates/aside.php');
+  load_template(get_template_directory() . '/templates/aside.php');
   ?>
 
-	<?php get_footer(); ?>
+  <?php
+  load_template(get_template_directory() . '/templates/product.php', false);
+  load_template(get_template_directory() . '/templates/product.php', false);
+  load_template(get_template_directory() . '/templates/product.php', false);
+  load_template(get_template_directory() . '/templates/product.php', false);
+  ?>
+
+  <?php get_footer(); ?>
 </body>
 
 </html>
-

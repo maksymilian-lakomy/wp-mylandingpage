@@ -13,8 +13,8 @@ Text Domain: mylandingpage
 
 @import "./variables";
 @import "./breakpoints";
+@import "./fonts";
 
-body {
-  background: red;
-}
+@import "./default";
 
+@import "./templates/index";
