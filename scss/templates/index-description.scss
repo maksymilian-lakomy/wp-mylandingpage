@@ -1,4 +1,5 @@
 @import "../variables";
+@import "../breakpoints";
 
 .index-description {
   padding: 1.5rem;
@@ -11,15 +12,27 @@
     font-size: 1.5rem;
     font-weight: 700;
     color: $color-text-secondary;
+
+    @include breakpoint("medium") {
+      font-size: 2rem;
+    }
   }
 
   &__content {
     font-size: 0.8rem;
+
+    @include breakpoint("medium") {
+      font-size: 1rem;
+    }
   }
 
   &__sewing-machine {
     width: 7rem;
     margin-bottom: 1rem;
+
+    @include breakpoint("medium") {
+      width: 10rem;
+    }
   }
   //160 96
 }
