@@ -6,7 +6,7 @@
 
   <div class="product__informations-wrapper">
     <p class="product__availability">Dostępny</p>
-    <h3 class="product__title">LOREM IPSUM</h3>
+    <h3 class="product__title">Super kapcie</h3>
     <p class="product__price">79,95 zł</p>
   </div>
 </a>
