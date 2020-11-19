@@ -1,6 +1,25 @@
 @import "../variables";
 
 .index-description {
-  padding: 4rem;
+  padding: 1.5rem;
+
+  text-align: center;
   background: $color-secondary;
+
+  &__header {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: $color-text-secondary;
+  }
+
+  &__content {
+    font-size: 0.8rem;
+  }
+
+  &__sewing-machine {
+    width: 7rem;
+    margin-bottom: 1rem;
+  }
+  //160 96
 }
