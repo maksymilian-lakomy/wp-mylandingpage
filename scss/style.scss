@@ -11,13 +11,9 @@ Tags: page
 Text Domain: mylandingpage
 */
 
+@import "./default";
 @import "./variables";
 @import "./breakpoints";
+@import "./fonts";
 
 @import "./templates/index";
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
