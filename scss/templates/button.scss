@@ -1,0 +1,14 @@
+@import "../variables";
+
+.button {
+  background-color: $color-secondary;
+  border: unset;
+  font: inherit;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  color: $color-text-secondary;
+  padding: 1rem 5rem;
+  width: 100%;
+  border-radius: .5rem;
+}
