@@ -6,7 +6,7 @@
 <body>
 
   <?php
-  load_template(get_template_directory() . '/templates/aside.php');
+  __template('index-description');
   ?>
 
   <?php
