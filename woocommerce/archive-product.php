@@ -5,18 +5,39 @@
 
 <body>
 
-  <?php
-  __template('index-description');
-  ?>
+  <article class="archive-product">
+    <?php
+    __template('index-description');
+    ?>
 
-  <?php
-  load_template(get_template_directory() . '/templates/product.php', false);
-  load_template(get_template_directory() . '/templates/product.php', false);
-  load_template(get_template_directory() . '/templates/product.php', false);
-  load_template(get_template_directory() . '/templates/product.php', false);
-  load_template(get_template_directory() . '/templates/product.php', false);
-  ?>
+    <section class="archive-product__category">
+      <ul class="archive-product__category-list">
+        <li class="archive-product__category-element">
+          <?php __template('product', false); ?>
+        </li>
+        <li class="archive-product__category-element">
+          <?php __template('product', false); ?>
+        </li>
+        <li class="archive-product__category-element">
+          <?php __template('product', false); ?>
+        </li>
+        <li class="archive-product__category-element">
+          <?php __template('product', false); ?>
+        </li>
+        <li class="archive-product__category-element">
+          <?php __template('product', false); ?>
+        </li>
+      </ul>
 
+      <div class="archive-product__see-more-button">
+        <?php
+        __template('button');
+        ?>
+      </div>
+
+    </section>
+
+  </article>
   <?php get_footer(); ?>
 </body>
 

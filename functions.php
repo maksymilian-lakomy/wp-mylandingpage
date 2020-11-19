@@ -4,9 +4,9 @@
 define('ASSETS_PATH', get_template_directory_uri() . '/assets/');
 define('TEMPLATES_PATH', get_template_directory() . '/templates/');
 
-function __template(string $name)
+function __template(string $name, bool $required_once = true)
 {
-	return load_template(TEMPLATES_PATH . $name . '.php');
+	return load_template(TEMPLATES_PATH . $name . '.php', $required_once);
 }
 
 function add_external_files()
